@@ -1,20 +1,33 @@
 .input:focus {
+
 }
 
 .input {
+    width: 370px;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 5px;
+    padding: 10px;
 }
 
 .inputWrapper {
+
 }
 
 .superInput {
 }
 
 .errorInput {
+    border: 1px solid rgb(204, 20, 57);
+    border-radius: 5px;
 }
 
 .errorInput:focus {
 }
 
 .error {
+    color: rgb(204, 20, 57);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
 }
