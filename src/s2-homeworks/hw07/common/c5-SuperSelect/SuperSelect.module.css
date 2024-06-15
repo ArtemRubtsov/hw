@@ -1,9 +1,27 @@
 .select {
+    width: 170px;
+    min-height: 25px;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 2px;
+    background: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    padding: 5px 5px;
+    color: #000000;
 }
 
 .select:focus {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
 }
 
 
 .option:hover {
+    min-height: 100px;
+    padding: 10px 10px;
+    margin-bottom: 30px;
 }
