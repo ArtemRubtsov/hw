@@ -1,7 +1,7 @@
 const initState = {
     isLoading: false,
 }
-type StateType = {
+export type StateType = {
     isLoading: boolean;
 }
 
